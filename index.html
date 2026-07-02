@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mohsin Gohar - Portfolio</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+    <!-- TOAST CONTAINER -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ============================================================ -->
+    <!-- NAVIGATION -->
+    <!-- ============================================================ -->
+    <nav class="nav-link" id="navbar">
+        <img class="logo" src="pics/imagelogo.jpg" alt="Logo" />
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="projects.html">All Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <a href="#contact" class="hire-btn">Hire Me</a>
+    </nav>
+
+    <!-- ============================================================ -->
+    <!-- HERO -->
+    <!-- ============================================================ -->
+    <header id="home">
+        <div class="head">
+            <span id="typingText"></span><span class="typing-cursor"></span>
+        </div>
+        <p class="description">
+            I build high-end web applications to turn your ideas into reality.<br />
+            My goal is to write clean code that scales alongside your business.
+        </p>
+        <div class="btn-group">
+            <a href="#contact" class="start-btn">Start a Project</a>
+            <a href="#skills" class="tech-btn">Technical Stack</a>
+        </div>
+    </header>
+
+    <!-- ============================================================ -->
+    <!-- ABOUT -->
+    <!-- ============================================================ -->
+    <section id="about">
+        <h1 class="section-title reveal">About <span>Me</span></h1>
+        <div class="about-container">
+            <img src="pics/myimage.jpg" alt="Mohsin Gohar" class="profile-img reveal-left" />
+            <div class="text-box reveal-right">
+                <h3>Mohsin Gohar</h3>
+                <h1>I'm A Web <br /><span>Developer</span></h1>
+                <p class="desc-text">
+                    I am a passionate Web Developer specialized in building clean, functional, and responsive websites.
+                    With a strong command over HTML, CSS, and JavaScript, I focus on turning complex problems into elegant digital solutions.
+                </p>
+                <a href="pics/mohsin-cv.pdf" class="start-btn cv-btn">View CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- SKILLS -->
+    <!-- ============================================================ -->
+    <section id="skills">
+        <div class="skills-container">
+            <h1 class="skills-title reveal">My <span class="skll">Skills</span></h1>
+            <p class="skills-subtitle reveal">Technologies I work with</p>
+            <div id="skills-list"></div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- PROJECTS -->
+    <!-- ============================================================ -->
+    <section id="projects">
+        <h1 class="section-title reveal">My <span>Projects</span></h1>
+        <div class="project-grid" id="project-grid"></div>
+        <div class="show-all-wrap reveal">
+            <a href="projects.html" class="show-all-btn">Show All Projects <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- SERVICES -->
+    <!-- ============================================================ -->
+    <section id="services">
+        <h1 class="section-title reveal">My <span>Services</span></h1>
+        <div class="services-grid" id="services-grid"></div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- CONTACT -->
+    <!-- ============================================================ -->
+    <section id="contact">
+        <h1 class="section-title reveal">Contact <span>Us</span></h1>
+        <div class="contact-wrapper reveal">
+            <div class="contact-details">
+                <span class="availability-badge"><span class="dot"></span> Available for freelance work</span>
+                <h1>Let's Talk</h1>
+                <p>Have a project in mind? Send over the details and I'll get back to you within a day.</p>
+                <div class="detail-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <span class="detail-label">Phone</span>
+                        <span>+92 341 2126649</span>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <span class="detail-label">Email</span>
+                        <span>mohsingohar759@example.com</span>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <span class="detail-label">Location</span>
+                        <span>Pakistan</span>
+                    </div>
+                </div>
+                <div class="detail-item">
+                    <i class="fas fa-briefcase"></i>
+                    <div>
+                        <span class="detail-label">Role</span>
+                        <span>Web Developer</span>
+                    </div>
+                </div>
+                <div class="contact-socials">
+                    <a href="https://github.com/mohsin-gohar" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="form-box">
+                <h2>Send Message</h2>
+                <p class="form-subtitle">Fill in the form below and I'll respond as soon as possible.</p>
+                <form action="https://gmail.com/mohsingohar759@gmail.com" method="POST" class="contact-form" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <input type="text" id="formName" placeholder="Full Name" required />
+                        <p class="error-msg" id="nameError">Please enter your name</p>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="formEmail" placeholder="Email" required />
+                        <p class="error-msg" id="emailError">Please enter a valid email</p>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="formMessage" placeholder="Type Your Message" required></textarea>
+                        <p class="error-msg" id="messageError">Please enter your message</p>
+                    </div>
+                    <button type="submit" class="send-btn" id="sendBtn">
+                        <span class="btn-spinner"></span>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- PROJECT OVERLAY -->
+    <!-- ============================================================ -->
+    <div class="project-overlay" id="projectOverlay">
+        <div class="project-detail-container">
+            <button class="close-overlay" id="closeOverlayBtn" aria-label="Close details">&#10005;</button>
+            <h2 class="project-detail-title" id="detailTitle">Project Title</h2>
+            <p class="project-detail-description" id="detailDescription">Project description here...</p>
+
+            <h3 style="color: #fff; margin-bottom: 15px;">Gallery</h3>
+            <div class="project-gallery" id="detailGallery"></div>
+
+            <h3 style="color: #fff; margin-bottom: 15px;">Tech Stack</h3>
+            <div class="project-tech-stack" id="detailTechStack"></div>
+
+            <div class="project-detail-links">
+                <a href="#" class="start-btn" id="detailLiveLink" target="_blank">View Live</a>
+                <a href="#" class="tech-btn" id="detailGithubLink" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- LIGHTBOX (gallery viewer) -->
+    <!-- ============================================================ -->
+    <div class="lightbox-overlay" id="lightboxOverlay">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close image">&#10005;</button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+        <img src="" alt="Project screenshot" class="lightbox-image" id="lightboxImage" />
+        <button class="lightbox-next" id="lightboxNext" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+        <div class="lightbox-counter" id="lightboxCounter">1 / 1</div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- FOOTER -->
+    <!-- ============================================================ -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img class="logo" src="pics/imagelogo.jpg" alt="Logo" />
+                <h3>Mohsin <span>Gohar</span></h3>
+                <p>Web Developer building clean, responsive, and reliable web applications for clients around the world.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                    <li><a href="#skills"><i class="fas fa-chevron-right"></i> Skills</a></li>
+                    <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Projects</h4>
+                <ul>
+                    <li><a href="#projects"><i class="fas fa-chevron-right"></i> Featured Work</a></li>
+                    <li><a href="projects.html"><i class="fas fa-chevron-right"></i> All Projects</a></li>
+                    <li><a href="#contact"><i class="fas fa-chevron-right"></i> Start a Project</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <div class="footer-socials">
+                    <a href="https://github.com/mohsin-gohar" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mohsin Gohar. All Rights Reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#home">Back to top</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================================ -->
+    <!-- JAVASCRIPT — FIXED & ENHANCED -->
+    <!-- ============================================================ -->
+    <script src="data.js"></script>
+    <script src="portfolio.js"></script>
+
+</body>
+</html>

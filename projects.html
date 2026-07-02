@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>All Projects - Mohsin Gohar</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+    <!-- TOAST CONTAINER -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ============================================================ -->
+    <!-- NAVIGATION -->
+    <!-- ============================================================ -->
+    <nav class="nav-link" id="navbar">
+        <img class="logo" src="pics/imagelogo.jpg" alt="Logo" />
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="projects.html" class="active">All Projects</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <a href="index.html#contact" class="hire-btn">Hire Me</a>
+    </nav>
+
+    <!-- ============================================================ -->
+    <!-- PAGE HEADER -->
+    <!-- ============================================================ -->
+    <div class="projects-page-header">
+        <a href="index.html" class="back-to-home-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+        <h1 class="section-title reveal">All <span>Projects</span></h1>
+        <p class="reveal">A complete look at everything I've built — from e-commerce platforms to management systems and productivity tools.</p>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- PROJECTS GRID (all projects, 3 per row) -->
+    <!-- ============================================================ -->
+    <section id="projects">
+        <div class="project-grid project-grid-all" id="project-grid-all"></div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- PROJECT OVERLAY -->
+    <!-- ============================================================ -->
+    <div class="project-overlay" id="projectOverlay">
+        <div class="project-detail-container">
+            <button class="close-overlay" id="closeOverlayBtn" aria-label="Close details">&#10005;</button>
+            <h2 class="project-detail-title" id="detailTitle">Project Title</h2>
+            <p class="project-detail-description" id="detailDescription">Project description here...</p>
+
+            <h3 style="color: #fff; margin-bottom: 15px;">Gallery</h3>
+            <div class="project-gallery" id="detailGallery"></div>
+
+            <h3 style="color: #fff; margin-bottom: 15px;">Tech Stack</h3>
+            <div class="project-tech-stack" id="detailTechStack"></div>
+
+            <div class="project-detail-links">
+                <a href="#" class="start-btn" id="detailLiveLink" target="_blank">View Live</a>
+                <a href="#" class="tech-btn" id="detailGithubLink" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- LIGHTBOX (gallery viewer) -->
+    <!-- ============================================================ -->
+    <div class="lightbox-overlay" id="lightboxOverlay">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close image">&#10005;</button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+        <img src="" alt="Project screenshot" class="lightbox-image" id="lightboxImage" />
+        <button class="lightbox-next" id="lightboxNext" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+        <div class="lightbox-counter" id="lightboxCounter">1 / 1</div>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- FOOTER -->
+    <!-- ============================================================ -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img class="logo" src="pics/imagelogo.jpg" alt="Logo" />
+                <h3>Mohsin <span>Gohar</span></h3>
+                <p>Web Developer building clean, responsive, and reliable web applications for clients around the world.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="index.html#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                    <li><a href="index.html#skills"><i class="fas fa-chevron-right"></i> Skills</a></li>
+                    <li><a href="index.html#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Projects</h4>
+                <ul>
+                    <li><a href="index.html#projects"><i class="fas fa-chevron-right"></i> Featured Work</a></li>
+                    <li><a href="projects.html"><i class="fas fa-chevron-right"></i> All Projects</a></li>
+                    <li><a href="index.html#contact"><i class="fas fa-chevron-right"></i> Start a Project</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <div class="footer-socials">
+                    <a href="https://github.com/mohsin-gohar" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mohsin Gohar. All Rights Reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="index.html#home">Back to Home</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================================ -->
+    <!-- JAVASCRIPT -->
+    <!-- ============================================================ -->
+    <script src="data.js"></script>
+    <script src="portfolio.js"></script>
+
+</body>
+</html>
