@@ -491,7 +491,7 @@
         .project-card:hover {
             transform: translateY(-10px);
             border-color: #2ecc71;
-            box-shadow: 0 15px 35px rgba(46, 204, 113, 0.12);
+            box-shadow: 0 15px 35px rgba(46, 204, 113, 0.2);
         }
 
         .project-card-image {
@@ -958,7 +958,7 @@
         .service-card:hover {
             border-color: #2ecc71;
             transform: translateY(-8px);
-            box-shadow: 0 15px 40px rgba(46, 204, 113, 0.1);
+            box-shadow: 0 15px 40px rgba(46, 204, 113, 0.2);
         }
 
         .service-card:hover::before {
@@ -1219,6 +1219,7 @@
         .send-btn:hover {
             background: #27ae60;
             transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(46, 204, 113, 0.3);
         }
 
         .send-btn:disabled {

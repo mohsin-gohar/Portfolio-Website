@@ -5,13 +5,16 @@
     // SKILLS
     // =============================================================
     const skillsData = [
-        { name: 'HTML', percentage: 90 },
-        { name: 'CSS', percentage: 85 },
-        { name: 'Bootstrap', percentage: 80 },
-        { name: 'JavaScript', percentage: 75 },
-        { name: 'jQuery', percentage: 70 },
-        { name: 'Laravel', percentage: 65 },
-        { name: 'Asp.Net Core', percentage: 60 }
+        { name: 'HTML & CSS', percentage: 95 },
+        { name: 'JavaScript (ES6+)', percentage: 90 },
+        { name: 'React', percentage: 85 },
+        { name: 'Next.js', percentage: 80 },
+        { name: 'TypeScript', percentage: 80 },
+        { name: 'Node.js', percentage: 75 },
+        { name: 'Tailwind CSS', percentage: 88 },
+        { name: 'Bootstrap', percentage: 85 },
+        { name: 'Laravel', percentage: 70 },
+        { name: 'ASP.NET Core', percentage: 65 }
     ];
 
     // =============================================================
@@ -28,7 +31,7 @@
             title: 'Portfolio Website',
             description: 'A modern personal portfolio to showcase professional skills, projects, and achievements. Built with clean, semantic code and responsive design principles.',
             images: ['pics/pro1.jpg', 'pics/pro2.jpg', 'pics/pro3.jpg', 'pics/pro4.jpg'],
-            techStack: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+            techStack: ['React', 'JavaScript', 'Tailwind CSS', 'HTML'],
             liveLink: '#',
             githubLink: 'https://github.com/mohsin-gohar',
             featured: true
@@ -38,7 +41,7 @@
             title: 'E-Commerce Store',
             description: 'A fully functional e-commerce platform with product catalog, shopping cart, checkout process, and payment gateway integration.',
             images: ['pics/pro2.jpg', 'pics/pro1.jpg', 'pics/pro3.jpg'],
-            techStack: ['HTML', 'CSS', 'JavaScript', 'Laravel', 'MySQL'],
+            techStack: ['React', 'Node.js', 'Laravel', 'MySQL'],
             liveLink: '#',
             githubLink: 'https://github.com/mohsin-gohar',
             featured: true
@@ -48,7 +51,7 @@
             title: 'Task Manager App',
             description: 'A productivity tool for managing daily tasks with drag-and-drop, task prioritization, deadlines, and real-time updates.',
             images: ['pics/pro3.jpg', 'pics/pro1.jpg', 'pics/pro4.jpg', 'pics/pro2.jpg'],
-            techStack: ['JavaScript', 'Bootstrap', 'Laravel'],
+            techStack: ['React', 'TypeScript', 'Node.js', 'Tailwind CSS'],
             liveLink: '#',
             githubLink: 'https://github.com/mohsin-gohar',
             featured: true
@@ -58,7 +61,7 @@
             title: 'Blog Platform',
             description: 'A dynamic blogging platform with user authentication, post creation, a comments system, and an admin dashboard for content management.',
             images: ['pics/pro4.jpg', 'pics/pro2.jpg'],
-            techStack: ['PHP', 'Laravel', 'MySQL', 'Bootstrap'],
+            techStack: ['Next.js', 'React', 'Node.js', 'Tailwind CSS'],
             liveLink: '#',
             githubLink: 'https://github.com/mohsin-gohar',
             featured: true

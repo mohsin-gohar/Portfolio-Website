@@ -772,6 +772,14 @@
     // 15. INITIALIZE — Sab kuch yahan se start hota hai
     // =============================================================
 
+    function updateFooterYear() {
+        var yearEls = document.querySelectorAll('.footer-bottom p');
+        var currentYear = new Date().getFullYear();
+        yearEls.forEach(function (el) {
+            el.innerHTML = '&copy; ' + currentYear + ' Mohsin Gohar. All Rights Reserved.';
+        });
+    }
+
     function init() {
         renderSkills();
         renderProjects();
@@ -791,6 +799,7 @@
         initBackToTop();
 
         initTypingEffect();
+        updateFooterYear();
     }
 
     if (document.readyState === 'loading') {
